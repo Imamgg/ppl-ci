@@ -135,7 +135,6 @@ try {
 }
 console.log("");
 
-// Test Suite 5: File Existence
 console.log("Test Suite 5: Validasi Keberadaan File");
 console.log("---------------------------------------");
 

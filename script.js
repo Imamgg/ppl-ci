@@ -1,4 +1,3 @@
-// Data mahasiswa
 const mahasiswaData = {
   nim: "230411100198",
   nama: "IMAM SYAFII",
