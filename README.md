@@ -2,7 +2,7 @@
 
 Proyek web statis sederhana untuk menampilkan NIM dan identitas mahasiswa dengan implementasi Continuous Integration (CI) menggunakan GitHub Actions.
 
-## Deskripsi
+## 📋 Deskripsi
 
 Aplikasi web statis yang menampilkan informasi identitas mahasiswa dengan fitur:
 
@@ -10,6 +10,15 @@ Aplikasi web statis yang menampilkan informasi identitas mahasiswa dengan fitur:
 - Validasi data mahasiswa
 - Unit testing otomatis
 - CI/CD pipeline dengan GitHub Actions
+
+## 🚀 Fitur
+
+- ✅ Tampilan web modern dan responsif
+- ✅ Validasi NIM (minimal 8 digit angka)
+- ✅ Validasi Email format
+- ✅ Unit test otomatis
+- ✅ GitHub Actions CI/CD pipeline
+- ✅ Laporan build dan test otomatis
 
 ## 📁 Struktur Proyek
 
@@ -26,7 +35,7 @@ web-sederhana/
 └── README.md               # Dokumentasi
 ```
 
-## Teknologi
+## 🛠️ Teknologi
 
 - HTML5
 - CSS3
@@ -34,7 +43,24 @@ web-sederhana/
 - Node.js (untuk testing)
 - GitHub Actions
 
-## Menjalankan Test
+## 📦 Instalasi
+
+1. Clone repository ini:
+
+```bash
+git clone <repository-url>
+cd web-sederhana
+```
+
+2. Install dependencies (untuk testing):
+
+```bash
+npm install
+```
+
+3. Buka `index.html` di browser untuk melihat website
+
+## 🧪 Menjalankan Test
 
 Jalankan unit test secara lokal:
 
@@ -50,7 +76,7 @@ Test akan memvalidasi:
 - ✓ Struktur HTML
 - ✓ Keberadaan file-file penting
 
-## CI/CD Pipeline
+## 🔄 CI/CD Pipeline
 
 Pipeline GitHub Actions akan otomatis berjalan ketika:
 
@@ -110,16 +136,25 @@ Tambahkan badge berikut di README untuk menampilkan status CI:
 
    Buka tab "Actions" di repository GitHub untuk melihat hasil build dan test.
 
-## Laporan Test
+## 📊 Laporan Test
 
 Setelah pipeline berjalan, Anda dapat melihat:
 
-- Status build (Success/Failed)
-- Hasil semua unit test
-- Log detail dari setiap step
-- Artifacts yang dapat didownload
+- ✅ Status build (Success/Failed)
+- ✅ Hasil semua unit test
+- ✅ Log detail dari setiap step
+- ✅ Artifacts yang dapat didownload
 
-## Troubleshooting
+## 🎨 Screenshot
+
+Website menampilkan:
+
+- Header dengan gradient background
+- Foto profil placeholder
+- Informasi mahasiswa (NIM, Nama, Prodi, Fakultas, Angkatan, Email)
+- Design responsif untuk mobile dan desktop
+
+## 🔧 Troubleshooting
 
 ### Test Gagal?
 
@@ -133,3 +168,15 @@ Setelah pipeline berjalan, Anda dapat melihat:
 - Pastikan file `.github/workflows/ci.yml` ada
 - Pastikan push dilakukan ke branch `main`
 - Cek tab Actions untuk melihat error detail
+
+## 📄 Lisensi
+
+MIT License
+
+## 👨‍💻 Author
+
+Proyek Perangkat Lunak - 2025/2026
+
+---
+
+**Note:** Jangan lupa untuk mengganti data mahasiswa dengan data Anda sendiri sebelum menggunakan aplikasi ini!
